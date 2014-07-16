@@ -14,7 +14,6 @@
     "stream-filter": "^1.0.0",
     "den": "0.0.0",
     "tuttle": "^0.2.0",
-    "minimist": "^0.2.0",
     "yargs": "^1.2.6"
   }
 }
