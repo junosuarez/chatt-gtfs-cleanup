@@ -28,7 +28,7 @@ $ npm update -g jden/chatt-gtfs-cleanup
 chatt-gtfs-cleanup --input <directory> --output <directory>
 
 Examples:
-  node cli --input c:/gtfs --outpue c:/gtfs_clean    Runs the clean up scripts on data in c:/gtfs.
+  node cli --input c:/gtfs --output c:/gtfs_clean    Runs the clean up scripts on data in c:/gtfs.
         New files will be written to c:/gtfs_bak
 
 
