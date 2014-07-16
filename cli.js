@@ -8,7 +8,7 @@ var argv = require('yargs')
   .describe('o', 'Specify the output directory')
   .usage('node cli --input <directory> --output <directory>')
   .demand(['i','o'])
-  .example('node cli --input c:/gtfs --outpue c:/gtfs_clean','Runs the clean up scripts on data in c:/gtfs.\n\tNew files will be written to c:/gtfs_bak')
+  .example('node cli --input c:/gtfs --output c:/gtfs_clean','Runs the clean up scripts on data in c:/gtfs.\n\tNew files will be written to c:/gtfs_bak')
   .argv
 var fix = require('./fix')
 
