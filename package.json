@@ -1,0 +1,20 @@
+{
+  "name": "carta",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node cli.js"
+  },
+  "author": "jden <jden@codeforamerica.org>",
+  "license": "ISC",
+  "bin": "cli.js",
+  "dependencies": {
+    "stream-filter": "^1.0.0",
+    "den": "0.0.0",
+    "tuttle": "^0.2.0",
+    "minimist": "^0.2.0",
+    "yargs": "^1.2.6"
+  }
+}
