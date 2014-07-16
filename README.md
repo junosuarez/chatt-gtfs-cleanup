@@ -7,19 +7,25 @@ scripts to clean up CARTA's GTFS data feed
 
 Required: [Node.js](http://nodejs.org/)
 
-From a command line, navigate to a new folder to store the scripts in and run:
+From a command line, run:
 ```console
-npm install jden/chatt-gtfs-cleanup
-cd node_modules
-cd carta
+npm install -g jden/chatt-gtfs-cleanup
 ```
 
-From this folder, you can now run the following commands to execute this script:
+You can now run `chatt-gtfs-cleanup` as a command to execute this script:
+
+
+## Upgrading
+
+To upgrade to a new version of this script, run:
+```console
+$ npm update -g jden/chatt-gtfs-cleanup
+```
 
 
 ## Usage
 ```
-node cli --input <directory> --output <directory>
+chatt-gtfs-cleanup --input <directory> --output <directory>
 
 Examples:
   node cli --input c:/gtfs --outpue c:/gtfs_clean    Runs the clean up scripts on data in c:/gtfs.
