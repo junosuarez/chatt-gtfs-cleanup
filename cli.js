@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 var package = require('./package.json')
 console.log('carta gtfs import scripts - version ' + package.version)
 
